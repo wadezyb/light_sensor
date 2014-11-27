@@ -216,6 +216,7 @@ int main( int argc, char **argv )
   char inData;
   int i;
   pos.data.resize(10);
+
   serialObjInit();
   fd = elCommInit(port,115200);
   // fd = elCommInit(port,1500000);
